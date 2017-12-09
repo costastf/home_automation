@@ -1,0 +1,2 @@
+usb_path: /dev/ttyACM1
+database_path: /config/zigbee.db

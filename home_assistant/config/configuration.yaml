@@ -63,4 +63,6 @@ switch: !include switches.yaml
 
 weblink: !include weblinks.yaml
 
-zwave: !include zwave.
+zwave: !include zwave.yaml
+
+zha: !include zha.yaml
