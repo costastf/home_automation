@@ -29,35 +29,3 @@ marias_blanket:
   picture:
   track: true
   vendor:
-
-maria:
-  hide_if_away: false
-  mac:
-  name: maria
-  picture:
-  track: true
-  vendor:
-
-costas:
-  hide_if_away: false
-  mac:
-  name: costas
-  picture:
-  track: true
-  vendor:
-
-internet_1:
-  hide_if_away: false
-  mac:
-  name: Internet 1
-  picture:
-  track: true
-  vendor:
-
-internet_2:
-  hide_if_away: false
-  mac:
-  name: Internet 2
-  picture:
-  track: true
-  vendor:

@@ -1,0 +1,12 @@
+# This will override the default home zone
+- name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  radius: 50
+  icon: mdi:account-multiple
+
+- name: Work
+  latitude: !secret work_latitude
+  longitude: !secret work_longitude
+  radius: 50
+  icon: mdi:briefcase

@@ -1,7 +1,7 @@
 homeassistant:
   name: Home
   latitude: !secret home_latitude
-  longitude: !secret home_longtitude
+  longitude: !secret home_longitude
   elevation: !secret home_elevation
   unit_system: metric
   time_zone: !secret home_timezone
@@ -12,6 +12,9 @@ frontend:
 
 # Enables configuration UI
 config:
+
+# Shows the map
+map:
 
 http:
   # Uncomment this to add a password (recommended!)
@@ -34,10 +37,6 @@ sun:
 # Text to speech
 tts:
   platform: google
-
-toon:
-  username: !secret toon_username
-  password: !secret toon_password
 
 group: !include groups.yaml
 
@@ -65,4 +64,12 @@ weblink: !include weblinks.yaml
 
 zwave: !include zwave.yaml
 
-zha: !include zha.yaml
+zone: !include zones.yaml
+
+toon:
+  username: !secret toon_username
+  password: !secret toon_password
+
+volvooncall:
+  username: !secret volvo_username
+  password: !secret volvo_password

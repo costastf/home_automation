@@ -37,7 +37,7 @@
     from: 'active'
     to: 'finished'
   action:
-    service: notify.telegram_Costas
+    service: notify.telegram_costas
     data:
       title: Dryer done picture
       message: Dryer done!

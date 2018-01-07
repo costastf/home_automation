@@ -1121,6 +1121,7 @@
           "steppedLine": false,
           "targets": [
             {
+              "alias": "Watt",
               "dsType": "influxdb",
               "groupBy": [
                 {
@@ -1136,7 +1137,7 @@
                   "type": "fill"
                 }
               ],
-              "measurement": "Watt",
+              "measurement": "W",
               "policy": "default",
               "refId": "A",
               "resultFormat": "time_series",
@@ -1158,7 +1159,7 @@
                 {
                   "key": "entity_id",
                   "operator": "=",
-                  "value": "bedroompanel_current_power"
+                  "value": "bedroom_panel_power"
                 }
               ]
             }
@@ -1357,5 +1358,5 @@
   },
   "timezone": "browser",
   "title": "Bedroom",
-  "version": 6
+  "version": 8
 }

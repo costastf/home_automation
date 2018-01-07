@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0658", ATTRS{idProduct}=="0200", ATTRS{serial}=="0000:00:14.0", SYMLINK+="zwave"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0658", ATTRS{idProduct}=="0200", ATTRS{serial}=="K71423411", SYMLINK+="zha"

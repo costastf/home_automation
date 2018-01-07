@@ -3,44 +3,25 @@ default_view:
   entities:
     - sun.sun
     - climate.toon_van_eneco
-    - device_tracker.costas
-    - device_tracker.maria
-    - device_tracker.internet_1
-    - device_tracker.internet_2
-    - sensor.gas_current
-    - sensor.gas_today
-    - sensor.power_current
-    - sensor.power_today
-    - sensor.fastcom_download
-    - sensor.speedtest_download
-    - sensor.speedtest_ping
-    - sensor.speedtest_upload
     - sensor.yr_temperature
     - sensor.yr_humidity
     - sensor.yr_cloudiness
-    - sensor.yr_dewpoint_temperature
-    - sensor.yr_precipitation
-    - sensor.yr_pressure
-    - sensor.yr_symbol
-    - sensor.yr_wind_speed
     - sensor.home_average_temperature
     - sensor.home_average_humidity
     - sensor.smokedetector_smoke_detector
+    - zone.home
+    - zone.work
     - weblink.home_graphs
 
 bedroom:
   name: Bedroom
   view: true
   entities:
-    - device_tracker.costas_blanket
-    - device_tracker.marias_blanket
     - light.bedroom
     - light.bedroom_ceiling
-    - sensor.bedroom_average_humidity
-    - sensor.bedroom_average_temperature
     - switch.costass_blanket
     - switch.marias_blanket
-    - switch.bedroompanel
+    - switch.bedroom_panel_switch
     - weblink.bedroom_graphs
 
 living_room:
@@ -61,6 +42,7 @@ kitchen:
   name: Kitchen
   view: true
   entities:
+    - sensor.dishwasher
     - automation.dishwasher_done_notification
     - automation.dishwasher_done_notification_maria
     - automation.dishwasher_done_notification_costas
@@ -88,8 +70,6 @@ study:
     - light.study
     - light.study_ceiling_left
     - light.study_ceiling_right
-    - sensor.study_average_temperature
-    - sensor.study_average_humidity
     - weblink.study_graphs
 
 washing_room:
@@ -104,14 +84,8 @@ washing_room:
     - automation.washing_machine_done_notification_costas
     - sensor.dryer
     - sensor.washing_machine
-    - sensor.dryer_current_power
-    - sensor.dryer_today_energy
-    - sensor.washer_current_power
-    - sensor.washer_today_energy
     - switch.dryer
     - switch.washer
-    - sensor.washing_room_average_humidity
-    - sensor.washing_room_average_temperature
     - weblink.washing_room_graphs
 
 guest_room:
